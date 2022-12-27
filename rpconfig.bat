@@ -1,8 +1,8 @@
 @echo off
 cls
 set /p _character="Enter your character's name: "; This will be the name of the created text file
-echo. > rpcreate.%_character%.txt
-echo Enter bat rpcreate.%character% in the developer console to apply the RP changes
+echo. > %_character%.txt
+echo Enter bat %character% in the developer console to apply the RP changes
 pause
 set /p _rpBoost="Do you want the RP stat boost? Enter 0 for no and 1 for yes: "
 if %_rpBoost% equ 1 (
