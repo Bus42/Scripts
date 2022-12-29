@@ -38,8 +38,10 @@ The end result will be a .txt file with contents similar to the following:
 
 ## Branches
 
-Clone the main branch to get the latest version of the script.
+Clone the development branch: `git clone -b development`
 
 Create a new branch for your customized version of the script following the naming convention of your character's name ie: `git checkout -b Mars`
 
 I suggest creating two branches, one for the final version of the script and one for the work in progress version. ie: `git checkout -b Mars` and `git checkout -b Mars-WIP`
+
+When your changes are ready, merge the WIP branch into the final branch: `git merge Mars-WIP`
