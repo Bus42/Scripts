@@ -1,47 +1,10 @@
-# Minerva's RP Assistant
+# Welcome to my Fallout 4 scripts and cheats and whatever else repository
 
-The purpose of this batch file is to create a text file to be interpreted by the engine in Fallout 4
+## Contributing
 
-The end result will be a .txt file with contents similar to the following:
+If you have a script or cheat you would like to contribute, create a new branch and submit a pull request.
 
-```text
-    player.removeitem 0001F276 100
-    player.removeitem 00004822 1
-    player.additem 5E000f9c 1
-    player.removeitem 5E005c0d 999
-    player.additem 5E005c0d 666
-    player.equipitem 5E000f9c
-    player.unequipitem 0001eed7
-    player.additem 7103c514 1
-    player.equipitem 7103c514
-    player.additem 71039eff 1
-    player.equipitem 71039eff
-    player.additem 71039f05 1
-    player.equipitem 71039f05
-    player.additem 71039efc 1
-    player.equipitem 71039efc
-    player.additem fe020f9c 1
-    player.equipitem fe020f9c
-    player.additem fe020f9a 1
-    player.equipitem fe020f9a
-    player.setav strength 3
-    player.setav perception 4
-    player.setav endurance 3
-    player.setav charisma 7
-    player.setav intelligence 5
-    player.setav agility 3
-    player.setav luck 5
-    player.addperk 00019aa3
-    player.addperk 0001e67f
-    player.addperk 001d248a
-```
+New branches should be cloned from the main branch to ensure the most stable version of this repository is used as a base. `git clone -b main`
 
-## Branches
-
-Clone the development branch: `git clone -b development`
-
-Create a new branch for your customized version of the script following the naming convention of your character's name ie: `git checkout -b Mars`
-
-I suggest creating two branches, one for the final version of the script and one for the work in progress version. ie: `git checkout -b Mars` and `git checkout -b Mars-WIP`
-
-When your changes are ready, merge the WIP branch into the final branch: `git merge Mars-WIP`
+New branches should follow the naming convention of the script or cheat they are contributing.
+ex: 'git checkout -b cheats/reset_materials/more_materials' for a contribution to the reset_materials cheat or 'git checkout -b scripts/spawn_cats' for a new script ie: **section/script_name/description**
