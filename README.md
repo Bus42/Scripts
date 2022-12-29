@@ -1,7 +1,8 @@
 # Minerva's RP Assistant
 
-The purpose of this batch file is to create a text file to be interpreted by the xEdit engine in Fallout 4
-the end result will be a .txt file with contents similar to the following:
+The purpose of this batch file is to create a text file to be interpreted by the engine in Fallout 4
+
+The end result will be a .txt file with contents similar to the following:
 
 ```text
     player.removeitem 0001F276 100
@@ -35,13 +36,10 @@ the end result will be a .txt file with contents similar to the following:
     player.addperk 001d248a
 ```
 
-## Follow the following instructions when writing the batch file
+## Branches
 
-- Prompt for the filename in case you want multiple bat files in order to effectively have different presets
-- Prompt for location IDs of the required mods
-  - DX Fetish Fashion
-  - Reverse Combat Armor
-  - Combined Arms
-- Prompt for RP stats
-- Prompt for RP perks
-- Prompt for ammo count
+Clone the main branch to get the latest version of the script.
+
+Create a new branch for your customized version of the script following the naming convention of your character's name ie: `git checkout -b Mars`
+
+I suggest creating two branches, one for the final version of the script and one for the work in progress version. ie: `git checkout -b Mars` and `git checkout -b Mars-WIP`
