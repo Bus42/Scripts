@@ -1,4 +1,20 @@
-# Minerva's RP Assistant
+# Batch Files
+
+## Contributing
+
+If you have a batch file you'd like to share, create it in this folder then create a section describing it `here`.
+
+## Creating Branches for RP Config
+
+Clone the main branch: `git clone -b main`
+
+Create a new branch for your customized version of the script following the naming convention of your character's name ie: `git checkout -b Mars`
+
+I suggest creating two branches, one for the final version of the script and one for the work in progress version. ie: `git checkout -b Mars` and `git checkout -b Mars-WIP` respectively. Fix your bugs and make your changes in the WIP branch. Once you are satisfied with the results, merge the WIP branch into the final branch.
+
+## Documentation
+
+### rpconfig.bat aka Minerva's RP Assistant
 
 The purpose of this batch file is to create a text file to be interpreted by the engine in Fallout 4
 
@@ -35,11 +51,3 @@ The end result will be a .txt file with contents similar to the following:
     player.addperk 0001e67f
     player.addperk 001d248a
 ```
-
-## Creating Branches for RP Config
-
-Clone the main branch: `git clone -b main`
-
-Create a new branch for your customized version of the script following the naming convention of your character's name ie: `git checkout -b Mars`
-
-I suggest creating two branches, one for the final version of the script and one for the work in progress version. ie: `git checkout -b Mars` and `git checkout -b Mars-WIP` respectively. Fix your bugs and make your changes in the WIP branch. Once you are satisfied with the results, merge the WIP branch into the final branch.
