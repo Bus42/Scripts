@@ -53,8 +53,9 @@ echo In order to provide you with the correct loadout, you will need to get some
 pause
 cls
 
-echo Launch Fallout 4. Once you are at the game menu press the ~ key to open the developer console then alt+tab back to this script
-echo NOTE: You cannot open the developer console in survival mode. If you want to play survival mode and use this config script you will need to keep the game in normal mode until you have exited the vault, run the script, then switch to survival mode
+echo Launch Fallout 4. Wait until you have created a character. The best time to do it is as soon as you exit the vault and everything is still black. It makes it easy to read. Press the ~ key to open the developer console then alt+tab back to this script
+echo NOTE: You cannot open the developer console in survival mode. If you want to play survival mode and use this config script you will need to keep the game in normal mode until you have exited the vault, run the script, then switch to survival mode.
+echo Also, vanilla survival mode is lame AF and you should be using Fallout Upgrayedded
 pause
 cls
 
@@ -78,7 +79,7 @@ echo DX Fetish Fashion items added
 pause
 cls
 
-echo In the developer console, enter: help "reverse combat" and note the first five characters of the code in the returned data
+echo In the developer console, enter: help "reverse combat" and note the first *five* characters of the code in the returned data
 pause
 cls
 
@@ -103,7 +104,7 @@ cls
 echo player.equipitem %_cw%0F9C >> %_character%.txt
 
 @REM Let the player keep the vault suit if they want it since it is a replacer
-set /p _keepVaultSuit= "Do you want to keep the Sexy Vault Suit? Enter 1 for yes or 0 for no: "
+set /p _keepVaultSuit= "Do you want to keep the Vault Suit? Enter 1 for yes or 0 for no: "
 if %_keepVaultSuit% equ 1 (
     echo Vault suit unequipped but still in inventory
     @REM Unequip vault suit
