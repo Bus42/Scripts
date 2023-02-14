@@ -1,0 +1,7 @@
+modav strength 3
+modav perception 3
+modav endurance 3
+modav charisma 3
+modav intelligence 3
+modav agility 3
+modav luck 3

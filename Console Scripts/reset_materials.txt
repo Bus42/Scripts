@@ -1,0 +1,62 @@
+removeItem 001BF72D 999
+additem 001BF72D 999 ;Acid
+removeItem 001BF72E 999
+additem 001BF72E 999 ;Adhesive
+removeItem 0006907A 999
+additem 0006907A 999 ;Aluminum
+removeItem 001BF72F 999
+additem 001BF72F 999 ;Antiseptic
+removeItem 000AEC5C 999
+additem 000AEC5C 999 ;Asbestos
+removeItem 000AEC5B 999
+additem 000AEC5B 999 ;Ballistic Fiber
+removeItem 000AEC5D 999
+additem 000AEC5D 999 ;Bone
+removeItem 000AEC5E 999
+additem 000AEC5E 999 ;Ceramic
+removeItem 0006907B 999
+additem 0006907B 999 ;Circuitry
+removeItem 000AEC5F 999
+additem 000AEC5F 999 ;Cloth
+removeItem 00106D99 999
+additem 00106D99 999 ;Concrete
+removeItem 0006907C 999
+additem 0006907C 999 ;Copper
+removeItem 000AEC60 999
+additem 000AEC60 999 ;Cork
+removeItem 0006907D 999
+additem 0006907D 999 ;Crystal
+removeItem 001BF730 999
+additem 001BF730 999 ;Fertilizer
+removeItem 00069087 999
+additem 00069087 999 ;Fiber Optics
+removeItem 000AEC61 999
+additem 000AEC61 999 ;Fiberglass
+removeItem 0006907E 999
+additem 0006907E 999 ;Gears
+removeItem 00069085 999
+additem 00069085 999 ;Glass
+removeItem 000AEC62 999
+additem 000AEC62 999 ;Gold
+removeItem 000AEC63 999
+additem 000AEC63 999 ;Lead
+removeItem 000AEC64 999
+additem 000AEC64 999 ;Leather
+removeItem 00069086 999
+additem 00069086 999 ;Nuclear Material
+removeItem 001BF732 999
+additem 001BF732 999 ;Oil
+removeItem 0006907F 999
+additem 0006907F 999 ;Plastic
+removeItem 00106D98 999
+additem 00106D98 999 ;Rubber
+removeItem 00069081 999
+additem 00069081 999 ;Screw
+removeItem 000AEC66 999
+additem 000AEC66 999 ;Silver
+removeItem 00069082 999
+additem 00069082 999 ;Spring
+removeItem 000731A4 999
+additem 000731A4 999 ;Steel
+removeItem 000731A3 999
+additem 000731A3 999 ;Wood
